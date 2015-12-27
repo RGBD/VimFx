@@ -79,6 +79,7 @@ parsers =
 
   prev_patterns: parsePatterns
   next_patterns: parsePatterns
+  rand_patterns: parsePatterns
 
   black_list: (value) ->
     result = parseSpaceDelimitedString(value)

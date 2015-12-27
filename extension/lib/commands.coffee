@@ -489,6 +489,8 @@ commands.follow_previous = helper_follow_pattern.bind(null, 'prev')
 
 commands.follow_next     = helper_follow_pattern.bind(null, 'next')
 
+commands.follow_random   = helper_follow_pattern.bind(null, 'rand')
+
 # Focus last focused or first text input.
 commands.focus_text_input = ({vim, count}) ->
   vim.markPageInteraction()

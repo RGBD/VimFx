@@ -85,6 +85,7 @@ shortcuts =
       'zF':        'click_browser_element'
       '[':         'follow_previous'
       ']':         'follow_next'
+      ';':         'follow_random'
       'gi':        'focus_text_input'
 
     'find':
@@ -125,6 +126,7 @@ options =
   'hint_chars':             'fjdkslaghrueiwovncm'
   'prev_patterns':          'prev  previous  ‹  «  ◀  ←  <<  <  back  newer'
   'next_patterns':          'next  ›  »  ▶  →  >>  >  more  older'
+  'rand_patterns':          'random'
   'black_list':             ''
   'prevent_autofocus':      false
   'ignore_keyboard_layout': false
@@ -145,7 +147,8 @@ advanced_options =
   'scroll.half_page_adjustment':        20
   'scroll.last_position_mark':          '`'
   'pattern_selector':                   'a, button'
-  'pattern_attrs':                      'rel  role  data-tooltip  aria-label'
+  'pattern_attrs':                      'rel  role  data-tooltip  aria-label
+                                         title'
   'hints_toggle_in_tab':                '<c-'
   'hints_toggle_in_background':         '<a-'
   'activatable_element_keys':           '<enter>'
